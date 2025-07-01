@@ -1,6 +1,5 @@
 import dotenv
 
-print("hello world")
 dotenv.load_dotenv()
 print("Environment Variables Loaded:")
 
