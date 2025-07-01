@@ -1,1 +1,6 @@
+import dotenv
+
 print("hello world")
+dotenv.load_dotenv()
+
+print("Secret Key:", dotenv.get_key(".env", "LOCAL_SECRET_KEY"))
